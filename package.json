@@ -1,0 +1,23 @@
+{
+  "name": "use-send",
+  "version": "1.0.0",
+  "description": "A function to allow sending messages inside React function components that use the union function from @composi/runtime.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config ./.eslintrc.json ./index.js",
+    "test": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "useReducer",
+    "useSend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "eslint": "^6.7.2",
+    "typescript": "^3.7.2"
+  }
+}
