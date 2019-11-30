@@ -11,7 +11,7 @@
  * @param {React.Dispatch<any>} dispatch 
  */
 export function useSend(dispatch) {
-  if (typeof dispatch !== 'function' || dispatch.name !== 'dispatch') throw new Error(`Was expecting the dispatch function from the useReducer hook.`)
+  if (typeof dispatch !== 'function') throw new Error(`Was expecting the dispatch function from the useReducer hook.`)
   /**
    * @param {(Function, data?: any) => Message} msg 
    * @param {any} [data] 

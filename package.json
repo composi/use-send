@@ -1,6 +1,6 @@
 {
   "name": "@composi/use-send",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function to allow sending messages inside React function components that use the union function from @composi/runtime.",
   "main": "index.js",
   "scripts": {
