@@ -1,12 +1,21 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
     "allowJs": true,
     "checkJs": true,
-    "noEmit": true,
     "moduleResolution": "node",
+    "alwaysStrict": true,
+    "strictNullChecks": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "outDir": "types",
+    "removeComments": false
   },
-  "include": [
-    "index.js",
+  "files": [
+    "index.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "types"
   ]
 }

@@ -1,9 +1,10 @@
 {
   "name": "@composi/use-send",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A function to allow sending messages inside React function components that use the union function from @composi/runtime.",
   "main": "index.js",
   "scripts": {
+    "start": "npm run lint && npm test",
     "lint": "eslint --config ./.eslintrc.json ./index.js",
     "test": "tsc"
   },
@@ -25,7 +26,7 @@
   "devDependencies": {
     "@types/react": "^16.9.13",
     "eslint": "^6.7.2",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.3"
   },
   "publishConfig": {
     "access": "public"
